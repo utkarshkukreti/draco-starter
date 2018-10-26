@@ -1,0 +1,9 @@
+[package]
+name = "draco-starter"
+version = "0.1.0"
+authors = ["Utkarsh Kukreti <utkarshkukreti@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+draco = "0.1.0"
+wasm-bindgen = "0.2.25"
