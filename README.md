@@ -7,6 +7,10 @@
 Install `wasm-bindgen-cli` (if you haven't already):
 
     $ cargo install wasm-bindgen-cli
+    
+Add the `wasm32-unknown-unknown` target to the rust compiler using rustup:
+
+    $ rustup target add wasm32-unknown-unknown
 
 From this directory, run either `make`, or if you don't have `make` or want
 to do it manually, run:
